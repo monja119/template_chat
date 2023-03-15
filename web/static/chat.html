@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div id="content-index" class="container-fluid text-center">
+
+        <!-- content chat -->
+        <div>
+
+            <!-- user one -->
+            <div class="border-right vw-45 vh-75 float-left user" id="user-one">
+                <!-- user one message -->
+
+                <!-- ./user one message -->
+                <!-- typing message -->
+                <div class="msg mt-2" id="typing-one">
+
+                </div>
+                <!-- ./typing message -->
+
+            </div>
+
+            <!-- user two -->
+            <div class="border-left vw-45 vh-75 float-right" id="user-two">
+                <!-- user two message -->
+
+                <!-- ./use two message -->
+                <!-- typing message -->
+                <div class="msg mt-2" id="typing-two">
+
+                </div>
+                <!-- ./typing message -->
+
+            </div>
+        </div>
+        <!-- ./content chat -->
+
+        <!-- input message -->
+        <div>
+            <!-- user one -->
+            <div class="vw-45 float-left user text-center" id="user-one-input">
+                <div class="form-group">
+                    <textarea cols="60" rows="3" id="msg-content-one" class="msg-area form-control msg-area">
+                    </textarea>
+
+                    <img src="images/illustrations/send.png" id="send-one" class="small-image-50 ml-1 cursor-pointer" alt="send">
+
+                </div>
+            </div>
+
+
+            <!-- user two -->
+            <div class=" vw-45  float-right" id="user-two-input">
+                <div class="form-group">
+                    <textarea cols="60" rows="3" id="msg-content-two" class="msg-area form-control msg-area">
+                    </textarea>
+
+                    <img src="images/illustrations/send.png" id="send-two" class="small-image-50 ml-1 cursor-pointer " alt="send">
+
+                </div>
+            </div>
+        </div>
+        <!-- ./input message -->
+
+
+    </div>
+    <script src="js/index.js" type="text/javascript">
+
+    </script>
+</body>
+</html>
