@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+}
+
+.container-flex{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.container-flex > div{
+    background-color: red;
+    margin: 2px;
+    text-align: center;
+    font-size: 26px;
+    width: 17%;
+
+}
