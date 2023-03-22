@@ -81,6 +81,9 @@ body{
 .rounded-circle{
     border-radius: 50%;
 }
+.text-white{
+    color: white;
+}
 .bg{
     background-color: gray;
 }
@@ -160,6 +163,10 @@ body{
 
 .border{
     border: 1px solid black;
+}
+
+.border-none{
+   border: none;
 }
 
 .border-left{
@@ -325,9 +332,18 @@ body{
 .btn-danger{
     background-color: red;
 }
+.btn-success{
+    background-color: green;
+}
 
 .cursor-pointer{
     cursor: pointer;
+}
+.vh-15{
+    height: 15vh;
+}
+.vh-25{
+    height: 25vh;
 }
 .vh-45{
     height: 45vh;
